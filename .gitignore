@@ -1,0 +1,63 @@
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.env/
+.env*/
+.venv/
+.venv*/
+torch-env/
+conda-env/
+env/
+
+# Conda specific
+conda/
+anaconda/
+miniconda/
+
+# =========================
+# Python cache / artifacts
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# Model artifacts
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# =========================
+# Data (optional – enable if needed)
+# =========================
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+
+# =========================
+# OS-specific
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
